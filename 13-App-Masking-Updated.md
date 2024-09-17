@@ -52,7 +52,7 @@ In this task, you will download the pre-created rule sets into the session host 
 
    ![image](https://user-images.githubusercontent.com/83349577/175346152-3f8dce30-9412-49c7-a974-6b2b0c9d1479.png)
 
-1. Click on AVD-HP01-SH-0.
+1. Click on AVD-HP01-S-0.
 
    ![image](https://user-images.githubusercontent.com/83349577/175346345-4afff1e0-2259-4b8c-9f7e-4b1ed6a55287.png)
    
@@ -92,7 +92,7 @@ In this task, you will download the pre-created rule sets into the session host 
 
    >**Note**: It will take around 1-2 minutes for the script to execute.
    
-1. Navigate to virtual machines and click on **AVD-HP01-SH-1**.
+1. Navigate to virtual machines and click on **AVD-HP01-S-1**.
 
    ![image](https://user-images.githubusercontent.com/83349577/175347379-ac20a82e-8ead-4523-a4d8-f75a927a55be.png)
 
@@ -172,6 +172,8 @@ In this task, you will download the pre-created rule sets into the session host 
 1. Once connected, In the **start menu** search for **Rule Editor (1)** then right-click on **FSLogix Apps RuleEditor (2)** and click on **Run as Administrator (3)**.
 
    ![](media-1/runasadmin.png)
+
+1. Select **Yes** from **Do you want to allow this app to make changes to your device?** tab.
     
 1. On the FSLogix Apps RuleEditor application, click on **Open**.
 
@@ -223,7 +225,7 @@ In this task, you will download the pre-created rule sets into the session host 
 
    - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.
    
-   - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
+   - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Submit**.
    
    ![ws name.](media/lb52.png)
      
