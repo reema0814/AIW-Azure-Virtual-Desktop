@@ -135,7 +135,7 @@ In this task, you will through the process to understand the creation of a custo
 
 1. Return to AVD client application. On the AVD dashboard, click on the tile named **Session Desktop** to launch the desktop.
 
-   ![ws name.](media-2/sessiondesktop.png)
+   ![ws name.](media/ex4t2s2.png)
    
 1. A window saying *Connecting to: Session Desktop* will appear. Wait for a few seconds, then enter your password to access the Desktop.
 

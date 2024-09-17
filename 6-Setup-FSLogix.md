@@ -410,7 +410,7 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
 
 21. Click on the **Session Desktop** Desktop to launch it.
 
-    ![ws name.](media-2/sessiondesktop.png)
+    ![ws name.](media/ex4t2s2.png)
 
 22. Select **Allow** on the prompt asking permission to access local resources.
 
@@ -431,11 +431,11 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
 
 25. The virtual desktop will launch and look similar to the screenshot below.
 
-    ![ws name.](../Azure-Virtual-Desktop-v3/media/sessiondesktop.png)
+    ![ws name.](./media/sessiondesktop.png)
 
 26. At last, click on **User Account** and click on **Sign Out**.
 
-    ![ws name.](../Azure-Virtual-Desktop-v3/media/signoursd.png)
+    ![ws name.](./media/signoursd.png)
    
 ## Exercise 4: Verifying the User profiles stored in File Share
 

@@ -192,7 +192,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
    
 1. Once you are signed in to the AVD client, double-click on the **SessionDesktop**.
 
-   ![ws name.](media-2/sessiondesktop.png)
+   ![ws name.](media/ex4t2s2.png)
    
 1. A window saying *Connecting to SessionDesktop* will appear. Wait for a few seconds, then enter your password to access the Desktop.
 
@@ -222,17 +222,17 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
  
 1. Navigate to the path **Downloads\AVDGPTemplate** (Double-click on **AVDGPTemplate** Cabinet file to see the zip file) and extract the **AVDGPTemplate** zip file to the default path.
 
-   ![](../Azure-Virtual-Desktop-v3/media/extractfile.png)
+   ![](./media/extractfile.png)
    
-   ![](../Azure-Virtual-Desktop-v3/media/extractdefault.png)
+   ![](./media/extractdefault.png)
 
 1. Now navigate to **Documents** folder, right-click on **AVDGPTemplate** **(1)** zip file and select **Extract All...** **(2)**.
 
-   ![](../Azure-Virtual-Desktop-v3/media/extractall1.png)
+   ![](./media/extractall1.png)
    
 1. In the Select a Destination and Extract file pane, select **Exract**.
 
-   ![](../Azure-Virtual-Desktop-v3/media/extract-s17.png)
+   ![](./media/extract-s17.png)
 
 1. Navigate to the path **C:\Users\ODL_User628391\Documents\AVDGPTemplate** and copy the **terminalserver-avd.admx** file to **C:\Windows\PolicyDefinitions** folder.
 
@@ -242,7 +242,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    >**Note**: If you get any pop-out stating that the **Destination Folder Access Denied**, click on **Continue**.
 
-   ![](../Azure-Virtual-Desktop-v3/media/continue.png)
+   ![](./media/continue.png)
    
 1. Navigate back to the path **C:\Users\ODL_User628391\Documents\AVDGPTemplate\en-us** and copy **terminalserver-avd.adml** file to **C:\Windows\PolicyDefinitions\en-us** folder.
 
@@ -252,17 +252,17 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    >**Note**: If you get any pop-out stating that the **Destination Folder Access Denied**, click on **Continue**.
 
-   ![](../Azure-Virtual-Desktop-v3/media/continue.png)
+   ![](./media/continue.png)
    
 1. From the Start menu of your Session Desktop, search for **group policy** and select **Edit group policy**.
 
-   ![](../Azure-Virtual-Desktop-v3/media/edigrouppolicy1.png)
+   ![](./media/edigrouppolicy1.png)
    
 1. On the Local group policy editor pane, navigate to the path **Computer Configuration -> Administrative Templates -> Windows Components -> Remote Desktop Services -> Remote Desktop Session Host -> Azure Virtual Desktop**.
 
 1. On the Azure Virtual Desktop tab, right-click on the **Enable Screen Capture Protection (1)** and click on **Edit (2)**.
 
-    ![](../Azure-Virtual-Desktop-v3/media/edit.png)
+    ![](./media/edit.png)
     
 1. On the **Enable Screen Capture Protection** tab, follow the below instructions:
  
@@ -270,11 +270,11 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
     - Click on **Apply (2)**
     - Click on **Ok (3)**
 
-     ![](../Azure-Virtual-Desktop-v3/media/enabled1.png)
+     ![](./media/enabled1.png)
 
 1. From the Start menu of Session Desktop, search for **Registry Editor** and select it.
 
-    ![](../Azure-Virtual-Desktop-v3/media/registryeditor1.png)
+    ![](./media/registryeditor1.png)
     
     > **Note:** If you are prompted with any pop-up stating **Do you want to allow this app to make any changes to your device?**, click on **Yes**.
     
@@ -282,13 +282,13 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
 1. Right-click on the Terminal Services workspace, select **New (1)** and click on **DWORD (32-bit) value (2)**.
 
-    ![](../Azure-Virtual-Desktop-v3/media/dword.png)
+    ![](./media/dword.png)
     
 1. Enter the **Value name** as **fEnableScreenCaptureProtection**.
 
 1. Now right-click on the newly created register key *fEnableScreenCaptureProtection* and click on **Modify**.
 
-    ![](../Azure-Virtual-Desktop-v3/media/modify.png)
+    ![](./media/modify.png)
     
 1. On the **Edit DWORD (32-bit) value** dialog box, follow the below instructions:
 
@@ -296,23 +296,23 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
     - Select **Decimal (2)** under **Base**
     - Click on **Ok (3)**
 
-     ![](../Azure-Virtual-Desktop-v3/media/decimal.png)
+     ![](./media/decimal.png)
      
 1. Restore the session host and take a screenshot using the Snipping tool from your Local desktop.
 
-    ![](../Azure-Virtual-Desktop-v3/media/restoredown.png)
+    ![](./media/restoredown.png)
 
 1. In **Your Own PC/computer/workstation**, go to Start Menu and search for **Snipping tool** then select it from search results.
 
-    ![](../Azure-Virtual-Desktop-v3/media/snippingtool1.png)
+    ![](./media/snippingtool1.png)
 
 1. Then in the **Snipping tool**, click on drop-down button next to **Mode** and select **Full-Screen Snip**.
 
-    ![](../Azure-Virtual-Desktop-v3/media/fullscreen.png)
+    ![](./media/fullscreen.png)
 
 1. You will get a screenshot with the Session desktop blacked out, the blacked-out screenshot as mentioned in the below screenshot.
 
-   ![](../Azure-Virtual-Desktop-v3/media/blackedout.png)
+   ![](./media/blackedout.png)
    
    >**Note:** If you are not able to capture the blacked-out screenshot of the session desktop, re-start the session desktop and re-perform the above step
    
@@ -320,30 +320,29 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
    
 1. Now you have successfully enabled the Screen Capture Protection in your Session host.
 
-
 ## Exercise 4: App Locker
 
 1. Within the same Session Desktop, from the Start menu search for **Services (1)** and select it from search results **(2)**.
 
-   ![](../Azure-Virtual-Desktop-v3/media/services1.png)
+   ![](./media/services1.png)
    
 1. On the **Services** tab, right click on **Application Identity (1)** and click on **Start (2)**.
 
-   ![](../Azure-Virtual-Desktop-v3/media/applicationidentity.png)
+   ![](./media/applicationidentity.png)
    
 1. Minimize the Services window and search for **Local Security Policy (1)** from Start menu and select it from search results **(2)**.
 
-    ![](../Azure-Virtual-Desktop-v3/media/localsecuritypolicy1.png)
+    ![](./media/localsecuritypolicy1.png)
     
 1. Navigate to **Application Control Policy** -> **App Locker**.
 
 1. Right click on **App Locker (1)** and click on **Properties (2)**.
 
-    ![](../Azure-Virtual-Desktop-v3/media/prop.png)
+    ![](./media/prop.png)
     
 1. On **App Locker Properties** tab, check the box next to **Configured** for **Executable runs (1)**, **Windows Installer Rules (2)**, **Script Rules (3)**, **Packaged app Rules (4)** and click on **Apply (5)** then select **Ok (6)**.
 
-     ![](../Azure-Virtual-Desktop-v3/media/lockerprop.png)
+     ![](./media/lockerprop.png)
      
 1. Navigate to  **Application Control Policy** -> **App Locker** -> **Packaged app Rules** then right click on **Packaged app Rules (1)** under App Locker and select **Create New Rule (2)**.
 
