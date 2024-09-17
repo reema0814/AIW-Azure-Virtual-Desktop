@@ -65,21 +65,21 @@ In this exercise, We'll be reviewing monitoring data of the AVD environment usin
 
    ![ws name.](media-2/Lab2(a)-ex2-step2.png)
    
-1. In **Insights** page, **Click** on **Overview** tab *(1)*. Here on the **GS-AVD-HP** host pool, you'll be able to monitor the status and health of the session hosts (3).
+1. In **Insights** page, **Click** on **Overview** tab *(1)*. Here on the **gs-avd-hp** host pool, you'll be able to monitor the status and health of the session hosts (3).
 
-   ![ws name.](media-2/lab16-task2-step2.png)
+   ![ws name.](media-1/new-avd-lab13-18.jpg)
    
 1. **Click** on **Users** *(1)* tab, In **UPN to search for** blank paste **<inject key="Avd User 01" />** *(2)* and wait for the data to load. This tab gives an overview of the user's usage. Scroll down and explore different information loaded.
 
-   ![ws name.](media/mon23.png)
+   ![ws name.](media-1/new-avd-lab13-23.jpg)
    
 1. **Click** on the **Utilization** tab, This tab gives information about session summary, core info, and more information about the utilization of resources.
 
-   ![ws name.](media/mon24.png)
+   ![ws name.](media-1/new-avd-lab13-20.jpg)
    
 1. **Click** on **Clients** *(1)* tab, Here you'll be able to monitor the number of users connected to AVD using the browser and remote client application.
 
-   ![ws name.](media/mon22.png)
+   ![ws name.](media-1/new-avd-lab13-22.jpg)
    
 1. Spend some time on the page to explore different monitoring abilities offered by Azure Insights.
 
