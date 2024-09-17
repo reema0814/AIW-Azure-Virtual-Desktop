@@ -35,11 +35,11 @@ In this exercise, you go through the steps to create a rule set in **FSLogix App
     
 1. Navigate to the path **C:\Program Files\Microsoft Office\Office16 (1)**, select **MSAccess (2)** and click on **Open (3)**
 
-   ![](media-1/new-avd-lab13-2.JPG)
+   ![](media-1/new-avd-lab13-2.jpg)
    
 1. After selecting the application, click on **OK**.
 
-   ![](media-1/new-avd-lab13-3.JPG)
+   ![](media-1/new-avd-lab13-3.jpg)
    
    >**Note:** The rule sets are already created as part of prerequisites.
 
@@ -54,11 +54,11 @@ In this task, you will download the pre-created rule sets into the session host 
 
 1. Click on AVD-HP01-S-0.
 
-   ![](media-1/new-avd-lab13-4.JPG)
+   ![](media-1/new-avd-lab13-4.jpg)
    
 1. Then click on the Run command under Operations.
 
-   ![](media-1/new-avd-lab13-5.JPG)
+   ![](media-1/new-avd-lab13-5.jpg)
 
 1. Now select RunPowerShellScript.
  
@@ -88,17 +88,17 @@ In this task, you will download the pre-created rule sets into the session host 
 
 1. Wait for some time for the script to execute. Once done, it will show an output saying **Script Executed successfully**.
 
-   ![](media-1/new-avd-lab13-6.JPG)
+   ![](media-1/new-avd-lab13-6.jpg)
 
    >**Note**: It will take around 1-2 minutes for the script to execute.
    
 1. Navigate to virtual machines and click on **AVD-HP01-S-1**.
 
-   ![](media-1/new-avd-lab13-7.JPG)
+   ![](media-1/new-avd-lab13-7.jpg)
 
 1. Click on **Run command (1)** under Operations. Then select **RunPowerShellScript (2)**.
 
-   ![](media-1/new-avd-lab13-8.JPG)
+   ![](media-1/new-avd-lab13-8.jpg)
 
 1. Copy the script given below and paste it by using Ctrl + V in the Powershell window.
 
@@ -121,7 +121,7 @@ In this task, you will download the pre-created rule sets into the session host 
 
 1. Wait for some time for the script to execute. Once done, it will show an output saying Script Executed successfully.
 
-   ![](media-1/9new-avd-lab13-8.JPG)
+   ![](media-1/9new-avd-lab13-8.jpg)
 
    > **Note:** It will take around 1-2 minutes for the script to execute.
 
@@ -153,7 +153,7 @@ In this task, you will download the pre-created rule sets into the session host 
       
 1. The AVD dashboard will launch, then double-click on the **SessionDesktop** application to access it.
 
-   ![](media-1/new-avd-lab13-9.JPG)
+   ![](media-1/new-avd-lab13-9.jpg)
    
 1. A window saying *Connecting to: Session Desktop* will appear. Wait for a few seconds, then enter your password to access the Desktop.
 
@@ -175,7 +175,7 @@ In this task, you will download the pre-created rule sets into the session host 
 
 1. Select **Yes** from **Do you want to allow this app to make changes to your device?** tab.
 
-   ![](media-1/new-avd-lab13-10.JPG)
+   ![](media-1/new-avd-lab13-10.jpg)
     
 1. On the FSLogix Apps RuleEditor application, click on **Open**.
 
@@ -221,7 +221,7 @@ In this task, you will download the pre-created rule sets into the session host 
 
 1. Select **Allow** on the prompt asking permission to *Access local resources*.
 
-   ![](media-1/9new-avd-lab13-12.JPG)
+   ![](media-1/new-avd-lab13-12.jpg)
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
