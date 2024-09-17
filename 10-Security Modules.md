@@ -388,8 +388,6 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
     ![](media-1/appblock.png)
 
   
-
-    
 1. Now you have successfully created an App Locker for all Apps in the Session desktop.
 
     
