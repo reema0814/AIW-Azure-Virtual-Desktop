@@ -40,7 +40,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
 
 1. The AVD dashboard will launch. Click on **Word** to access it.  
 
-   ![ws name.](media-2/word.png)
+   ![ws name.](media/word.png)
 
 1. Select **Allow** on the prompt asking permission to *Access local resources*.
 
@@ -97,7 +97,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
 
 1. Click on the tile named **Session Desktop** to launch the desktop.
 
-   ![ws name.](media-2/sessiondesktop.png)
+   ![ws name.](media/session.png)
 
 1. Select **Allow** on the prompt asking permission to *Access local resources*.
 
@@ -113,7 +113,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
 
 1. The virtual desktop will launch and look similar to the screenshot below. 
 
-   ![ws name.](../Azure-Virtual-Desktop-v3/media/sessiondesktop.png)
+   ![ws name.](./media/sessiondesktop.png)
    
    > **Note:** If you see a black screen while launching the session desktop, please re-start the session desktop by re-performing the lab from step 2.
    
