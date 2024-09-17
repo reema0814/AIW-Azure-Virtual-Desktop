@@ -13,7 +13,7 @@ In this exercise, We'll be reviewing monitoring data of the AVD environment usin
 
    ![ws name.](media/137.png)
    
-1. Click on the *ellipses* and select **Unsubscribe**. Click on **Yes** for any warning.
+1. Click on the *ellipses* and select **Unsubscribe**. Click on **Continue** for any warning.
 
    ![ws name.](media/lb16.png)
 
@@ -35,7 +35,7 @@ In this exercise, We'll be reviewing monitoring data of the AVD environment usin
 
    ![](media/login2.png)
     
-1. Make sure to **uncheck** *Allow my organization to manage my device* and click on **No, sign in to this app only**.
+1. Make sure to **uncheck** *Allow my organization to manage my device* and click on **No, sign in to this app only** if you are directed to the tab.
 
    ![ws name.](media/ex4t1s9.png)
 
