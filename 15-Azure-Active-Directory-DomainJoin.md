@@ -16,9 +16,9 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
 
    ![ws name.](media/2avd1.png)
    
-2.	On the AVD **Overview page (1)**, click on Create a host pool **(2)**.
+2.	On the AVD **Overview page (1)**, click on **Create a host pool (2)**.
 
-   ![image](https://user-images.githubusercontent.com/83349577/175352775-1ca92f9e-b510-4fee-89e5-8c476bcffa5b.png)
+    ![image](https://user-images.githubusercontent.com/83349577/175352775-1ca92f9e-b510-4fee-89e5-8c476bcffa5b.png)
 
 3.	On the **Basics** tab, provide the following information and click **Next: Virtual machines >**
 
