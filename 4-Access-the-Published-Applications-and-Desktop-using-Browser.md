@@ -10,6 +10,12 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
 
 ## Exercise 1: Access the Published Application
 
+1.  Navigate to Azure portal, then search for *Host pools* in search bar and select **Host pools** from the suggestions.
+
+1. Navigate to **GS-AVD-HP**, then go to **Properties**. Under the **Preferred app group type**, choose **RemoteApp** and click **Save**.
+
+   ![ws name.](media/1.1.png)
+
 1. Open the following URL in a new browser tab in the JumpVM. This URL will lead us to the Remote Desktop Web Client.
 
    ``` 
@@ -34,7 +40,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
 
 1. The AVD dashboard will launch. Click on **Word** to access it.  
 
-   ![ws name.](media-2/word.png)
+   ![ws name.](media/word.png)
 
 1. Select **Allow** on the prompt asking permission to *Access local resources*.
 
@@ -83,13 +89,15 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
 
 ## Exercise 2: Access the published Desktop
 
-1. On the top-left side of Remote Desktop Web Client, click on **All Resources**.
-   
-   ![ws name.](media-1/L4E2S1.png)
-      
-1. We will land on the AVD dashboard again. Click on the tile named **Session Desktop** to launch the desktop.
+1.  Navigate to Azure portal, then search for *Host pools* in search bar and select **Host pools** from the suggestions.
 
-   ![ws name.](media-2/sessiondesktop.png)
+1. Navigate to **GS-AVD-HP**, then go to **Properties**. Under the **Preferred app group type**, choose **Desktop** and click **Save**.
+   
+1. Refresh the **Remote Desktop Web Client** page.
+
+1. Click on the tile named **Session Desktop** to launch the desktop.
+
+   ![ws name.](media/session.png)
 
 1. Select **Allow** on the prompt asking permission to *Access local resources*.
 
@@ -105,7 +113,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
 
 1. The virtual desktop will launch and look similar to the screenshot below. 
 
-   ![ws name.](../Azure-Virtual-Desktop-v3/media/sessiondesktop.png)
+   ![ws name.](./media/sessiondesktop.png)
    
    > **Note:** If you see a black screen while launching the session desktop, please re-start the session desktop by re-performing the lab from step 2.
    

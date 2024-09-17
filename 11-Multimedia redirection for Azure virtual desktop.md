@@ -8,7 +8,6 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 
 ## Exercise 1: Multimedia redirection for Azure virtual desktop
 
-
 1. Navigate to the Azure portal, then search for **Azure Virtual Desktop** in the search bar and select **Azure Virtual Desktop** from the suggestions.
 
    ![ws name.](media/w1.png)
@@ -29,7 +28,7 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 
 1. On your PC, search for **Remote Desktop** and open the remote desktop application with the exact icon as shown below.
 
-   ![ws name.](../Azure-Virtual-Desktop-v3/media/remote.png)
+   ![ws name.](./media/remote.png)
    
 1. The AVD desktop client will launch, then double-click on the SessionDesktop application to access it.
 
@@ -47,7 +46,7 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
    
 1. Once the Desktop is loaded as shown in the below screenshot. In the Welcome to Microsoft Teams pane, click on Continue as **<inject key="AzureAdUserEmail" />**.
 
-   ![ws name.](../Azure-Virtual-Desktop-v3/media/teamsopen.png)
+   ![ws name.](./media/teamsopen.png)
    
 1. Enter password: **<inject key="AzureAdUserPassword" />**
 
@@ -95,6 +94,6 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
   
 1. Now, you should be able to see yourself as the video is On.
 
-   ![](../Azure-Virtual-Desktop-v3/media/cam.png)
+   ![](./media/cam.png)
 
 1. Click on the **Next** button present in the bottom-right corner of this lab guide.
