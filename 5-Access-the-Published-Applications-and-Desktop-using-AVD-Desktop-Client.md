@@ -24,9 +24,9 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
    > https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-macos
    > ```
 
-1. Under **Prerequisites**, click on **Windows 64-bit**. This will download the **Remote Desktop Client** on **Your Own PC/computer/workstation**.
+1. Under **Download and install the Remote Desktop Client (MSI)**, click on **Windows 64-bit**. This will download the **Remote Desktop Client** on **Your Own PC/computer/workstation**.
    
-   ![ws name.](media-1/avd-l5-ex1-s2.png)
+   ![ws name.](media/lab5-1.png)
       
 1. After the download completes, open the setup to run it. Then on the Welcome page of setup click on **Next**.
 
@@ -61,10 +61,16 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 1. Make sure to **uncheck** *Allow my organization to manage my device* and click on **No, sign in to this app only**.
 
    ![ws name.](media/ex4t1s9.png)
+
+1. Navigate to Azure portal, then search for *Host pools* in search bar and select **Host pools** from the suggestions.
+
+1. Navigate to **GS-AVD-HP**, then go to **Properties**. Under the **Preferred app group type**, choose **RemoteApp** and click **Save**.
+
+1. Return to WVD client application then click on three vertical dot then select **Refresh**.
       
 1. The AVD dashboard will launch, then double-click on the **Excel** application to access it.
 
-   ![ws name.](media-2/rd-excel.png)
+   ![ws name.](media/ex4t1s10.png)
    
 1. A window saying *Starting your app*, will appear. Wait for a few seconds, then enter your password to access the Application.
 
@@ -108,9 +114,15 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
    
 ## Exercise 2: Access the Virtual Desktop
 
+1. Navigate to Azure portal, then search for *Host pools* in search bar and select **Host pools** from the suggestions.
+
+1. Navigate to **GS-AVD-HP**, then go to **Properties**. Under the **Preferred app group type**, choose **Desktop** and click **Save**.
+
+1. Return to WVD client application then click on three vertical dot then select **Refresh**.
+
 1. Return to AVD client application. On the AVD dashboard, click on the tile named **Session Desktop** to launch the desktop.
 
-   ![ws name.](media-2/sessiondesktop.png)
+   ![ws name.](media/labinst24.png)
    
 1. A window saying *Connecting to: Session Desktop* will appear. Wait for a few seconds, then enter your password to access the Desktop.
 
@@ -128,6 +140,6 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
 1. Your virtual desktop will launch and look similar to the screenshot below. You can exit from the window by clicking on **X *i.e., the close button***. 
         
-   ![ws name.](../Azure-Virtual-Desktop-v3/media/sessiondesktop1.1.png)   
+   ![ws name.](./media/sessiondesktop1.1.png)   
      
 1. Click on the **Next** button present in the bottom-right corner of this lab guide. 

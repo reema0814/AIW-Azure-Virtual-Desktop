@@ -14,7 +14,7 @@ In this task, we will install Google Chrome in the AVD-HP01-SH-0 session host us
 
    ![image](https://user-images.githubusercontent.com/83349577/175346152-3f8dce30-9412-49c7-a974-6b2b0c9d1479.png)
 
-2. Click on AVD-HP01-SH-0.
+2. Click on AVD-HP01-S-0.
 
    ![image](https://user-images.githubusercontent.com/83349577/175346345-4afff1e0-2259-4b8c-9f7e-4b1ed6a55287.png)
    

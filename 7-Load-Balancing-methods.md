@@ -1,6 +1,5 @@
 # Lab 7: Load Balancing methods
 
-
 ## **Scenario**
 
 Contoso's AVD environment set-up is working smoothly. However, Contoso is confused about which load balancing to use in order to run the sessions efficiently. You will guide Contoso to explore different types of load balancing offered by Azure.
@@ -57,7 +56,7 @@ The following load-balancing methods are available in Azure Virtual Desktop:
 
 1. Click on the **permission - fslogixcontainer (1)** group and then click on **Select (2)**.
 
-   ![ws name.](media/2avd43.png)
+   ![ws name.](media-1/L7E1S8.png)
 
 1. Click on **AVDUser02** to open it. Then click on **Groups** **(1)** under *Manage* blade and select **+ Add memberships** **(2)**.
 
@@ -65,7 +64,7 @@ The following load-balancing methods are available in Azure Virtual Desktop:
 
 1. Click on the **permission - fslogixcontainer (1)** group and then click on **Select (2)**.
 
-   ![ws name.](media/L7E1S10.png)
+   ![ws name.](media-1/L7E1S8.png)
 
 1. Navigate to the host pool *GS-AVD-HP* and open **Application groups** present under *Manage* blade. Two application groups will be listed there.
 
@@ -75,7 +74,7 @@ The following load-balancing methods are available in Azure Virtual Desktop:
 
     ![ws name.](media-2/assignments1.png)
    
-1. Click on **+ Add (1)**, then in the search bar, type **AVD (2)** and select both **AVDUser01 (3)** & **AVDUser02 (4)** that we created earlier. At last, click on the **Select (5)** button.
+1. Click on **Assignments(1)** then click on **+ Add (2)**, then in the search bar, type **AVD** and select both **AVDUser01 & AVDUser02 (3)** that we created earlier. At last, click on the **Select (4)** button.
 
     ![ws name.](media-2/L7E1S13.png)
 
@@ -159,7 +158,7 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. Select **Allow** on the prompt asking permission to *Access local resources*.
 
-   ![ws name.](media/Accessallowres-v2.png)
+   ![ws name.](media/lab4-1.png)
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
@@ -167,17 +166,17 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
    
    - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
    
-   ![ws name.](media/lb52.png)
+   ![ws name.](media/lab4-2.png)
 
 1. The virtual Desktop will launch as shown below. 
 
-   ![ws name.](../Azure-Virtual-Desktop-v3/media/sessiondesktop.png)
+   ![ws name.](./media/sessiondesktop.png)
    
 1. Navigate to **Your Own PC/computer/workstation**, go to **Start** search for **Remote desktop** and open the application with the exact icon as shown below.
 
    ![ws name.](media/137.png)
    
-1. Click on the *ellipses* and select **Unsubscribe**. Click on **Yes** for any warning.
+1. Click on the *ellipses* and select **Unsubscribe**. Click on **Continue** in the Are you sure you want to unsubscribe? tab.
 
    ![ws name.](media/lb16.png)
 
@@ -216,7 +215,7 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
   
 1. The virtual Desktop will launch as shown below. 
 
-   ![ws name.](../Azure-Virtual-Desktop-v3/media/sessiondesktop1.png) 
+   ![ws name.](./media/sessiondesktop1.png) 
 
 1. Return to the Azure portal in your browser inside the **JumpVM**, search for *host pools* and click on **Host pool** from the suggestion to open it.
 
@@ -276,7 +275,7 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. Select **Allow** on the prompt asking permission to *Access local resources*.
 
-   ![ws name.](media/Accessallowres-v2.png)
+   ![ws name.](media/lab4-1.png)
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
@@ -284,11 +283,11 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
    
    - Password: *Paste the password* **<inject key="AVD User Password" />**.
    
-   ![ws name.](media/lb52.png)
+   ![ws name.](media/lab4-2.png)
 
 1. The virtual Desktop will launch as shown below. 
 
-   ![ws name.](../Azure-Virtual-Desktop-v3/media/sessiondesktop.png)
+   ![ws name.](./media/sessiondesktop.png)
     
 1. Navigate to **Your Own PC/computer/workstation**, go to **Start** search for **Remote desktop** and open the application with the exact icon as shown below.
 
@@ -307,7 +306,7 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
   
 1. The virtual Desktop will launch as shown below. 
 
-   ![ws name.](../Azure-Virtual-Desktop-v3/media/sessiondesktop1.png) 
+   ![ws name.](./media/sessiondesktop1.png) 
 
 1. Return back to the Azure portal in the **JumpVM**, navigate to **GS-AVD-HP** host pool and open **Session Hosts** present under *Manage* blade.
 
